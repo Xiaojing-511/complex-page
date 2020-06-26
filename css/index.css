@@ -1,0 +1,294 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.Base {
+  width: 100px;
+  height: 100%;
+  background-color: #1d2531;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+}
+.Base i {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #ffffff;
+  display: block;
+  font-size: 30px;
+  border: 1px solid #1d2531;
+  border-radius: 30px;
+  text-align: center;
+  margin: 15px auto;
+}
+.Base .item1 {
+  background: linear-gradient(0deg, #1991eb, #2ea1f8);
+}
+.Base .item2 {
+  background: linear-gradient(0deg, #7f5be6, #9d8fe3);
+}
+.Base .item3 {
+  background: linear-gradient(0deg, #cb270a, #f45438);
+}
+.Base .item4 {
+  color: #2d3848;
+  box-sizing: border-box;
+  border: 3px solid #2d3848;
+}
+.Base .item5 {
+  color: #475364;
+  margin: 0;
+  font-size: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.Base .item6 {
+  color: #475364;
+  margin: 0;
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.Base-secondary {
+  width: 250px;
+  height: 100%;
+  background-color: #222c3c;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+}
+.Base-secondary .base {
+  padding: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #2a3547;
+}
+.Base-secondary .headline {
+  color: #5b6779;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0;
+  vertical-align: bottom;
+}
+.Base-secondary .headline-icon {
+  color: #5b6779;
+  font-size: 16px;
+  float: right;
+  vertical-align: bottom;
+  padding-top: 4px;
+}
+.Base-secondary .menu-details {
+  color: #b7c0cd;
+  font-size: 14px;
+  line-height: 30px;
+}
+.Base-secondary .products-icon {
+  margin-right: 15px;
+}
+.Base-secondary .foot-headline,
+.Base-secondary .foot-others {
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+.Base-secondary .foot-headline {
+  position: absolute;
+  left: 30px;
+  bottom: 50px;
+}
+.Base-secondary .foot-others {
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+}
+.Base-secondary .foot-schedule {
+  width: 190px;
+  height: 4px;
+  border: 1px solid #222c3c;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background-color: #475364;
+}
+.Base-secondary .foot-schedule .foot-schedule-parts {
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(90deg, #7f5be6, #9d8fe3);
+}
+.Messages {
+  width: calc(100% - 350px);
+  float: right;
+  height: 100%;
+  position: relative;
+}
+.Messages p {
+  color: #354052;
+  font-size: 24px;
+  position: absolute;
+  margin: 0;
+  top: 31px;
+  left: 30px;
+}
+.Messages .M-profile {
+  width: 224px;
+  height: 58px;
+  position: absolute;
+  top: 15px;
+  right: 100px;
+}
+.Messages .M-profile img {
+  width: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+.Messages .M-profile .M-profile-status {
+  width: 14px;
+  height: 14px;
+  background-color: #38a76a;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  right: 172px;
+}
+.Messages .M-profile .M-profile-status .M-profile-status-part {
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+.Messages .M-profile .M-profile-name {
+  margin: 0;
+  color: #2399f1;
+  font-size: 16px;
+  position: absolute;
+  top: 8px;
+  left: 90px;
+}
+.Messages .M-profile .M-profile-Administrator {
+  margin: 0;
+  color: #b5b5b5;
+  font-size: 14px;
+  position: absolute;
+  top: 32px;
+  left: 80px;
+}
+.Messages .M-profile i {
+  color: #bfc7d8;
+  font-size: 30px;
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+.Messages ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 90px;
+}
+.Messages ul li {
+  width: 400px;
+  height: 130px;
+  list-style-type: none;
+  border: 1px solid #e5e8ee;
+  border-left: none;
+  border-bottom: none;
+}
+.Messages ul .M-search-input {
+  height: 70px;
+}
+.Messages ul .M-search-input div {
+  width: 340px;
+  height: 36px;
+  margin: 15px auto;
+  border: 1px solid #e5e8ee;
+  border-radius: 4px;
+  position: relative;
+}
+.Messages ul .M-search-input div p {
+  color: #9fa9ba;
+  font-size: 16px;
+  margin: 0;
+  position: absolute;
+  top: 7px;
+  left: 15px;
+}
+.Messages ul .M-search-input div i {
+  color: #9fa9ba;
+  font-size: 16px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.Messages .M-search-details {
+  position: relative;
+  width: calc(100% - 402px);
+}
+.Messages .M-search-details li {
+  width: 100%;
+}
+.Messages .M-search-details .M-search-details-babber {
+  height: 70px;
+}
+.Messages .M-search-details .M-search-details-babber p {
+  font-size: 18px;
+  position: absolute;
+  top: 25px;
+}
+.Messages .M-search-details .M-search-details-babber div {
+  width: 8px;
+  height: 8px;
+  background-color: #1bb934;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 34px;
+  left: 145px;
+}
+.Messages .M-search-details .M-search-details-babber .M-search-details-babber-base {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 15px;
+  right: 220px;
+  border: 1px solid #ced0da;
+  border-radius: 4px;
+}
+.Messages .M-search-details .M-search-details-babber .M-search-details-babber-base li {
+  width: 40px;
+  height: 40px;
+  float: left;
+  border: 1px solid #ced0da;
+  background: linear-gradient(0, #f1f3f7, #ffffff);
+}
+.Messages .M-search-details .M-search-details-babber .M-search-details-babber-base li i {
+  color: #9fa9ba;
+  font-size: 20px;
+  line-height: 40px;
+  margin-left: 10px;
+}
+.Messages .M-search-details .M-search-details-babber .M-search-details-babber-base :nth-child(1),
+.Messages .M-search-details .M-search-details-babber .M-search-details-babber-base :nth-child(3) {
+  border: none;
+}
+.Messages .M-search-details .M-search-details-babber .M-search-details-babber-base :nth-child(2) {
+  border-top: none;
+  border-bottom: none;
+}
+.Messages .M-search-details .M-search-details-babber .M-search-details-babber-base-part2 {
+  position: absolute;
+  right: 50px;
+}
+.Messages .M-search-details .M-search-details-babber .M-search-details-babber-base-part2 :nth-child(2) {
+  border-right: none;
+}
